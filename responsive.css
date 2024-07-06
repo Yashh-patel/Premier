@@ -21,7 +21,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        letter-spacing: -3px;
+        letter-spacing: 0px;
         height: 100%;  
         position: relative; 
     }
