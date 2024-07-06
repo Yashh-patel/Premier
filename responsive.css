@@ -1,0 +1,224 @@
+@media (max-width : 600px) {
+    body{
+        overflow-x: hidden;
+    }
+    #main{
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    #main #nav{
+        width: 100%;
+        height: 6vh;
+        margin-top: 20px;
+        padding: 1vw 6.4vw 1vw 6.4vw;
+    }
+    #nav h1{
+        width: 23%;
+        font-family: monument;
+        font-weight: 800;
+        font-size: 4.9vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: -3px;
+        height: 100%;  
+        position: relative; 
+    }
+    #nav h3{
+        display: block;
+        border: none;
+    }
+    #nav h2{
+        display: none;
+    }
+    #nav .fa-solid fa-magnifying-glass{
+        display: block;
+    }
+    #nav h1::before{
+        display: none;
+    }
+    #middle{
+        height: 90%;
+    }
+    .over2{
+        margin-top: 10px;
+    }
+    .over2 img{
+        width: 6vw;
+    }
+    #bottem img{
+        width: 18vw;
+        border-radius: 50%;
+        height: 20vw;
+        margin: 0;
+    }
+    #bottem{
+        height: 25vw;
+    }
+    #bottem .bottem_content{
+        width: 140%;
+        /* height: 10vh; */
+    }
+    #abcd h5{
+        font-size: 2vw;
+    }
+    #abcd{
+        display: flex;
+    }
+    
+    #page2{
+        flex-direction: column;
+        min-height: 190vh;
+        width: 100%;
+        gap: 10px;
+        /* padding-bottom: 0.5vw; */
+    }
+    #page2 .part1{
+        width: 100%;
+    }
+    #page2 .part3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #page2 .part3 h3{
+        font-size: 6vw;
+    }
+    #page2 .part3 .part3-bottem h5{
+        font-size: 5vw;
+    }
+    #page2 .part3 .part3-bottem h6{
+        font-size: 3vw;
+    }
+    
+    #updateSection>h1{
+        font-size: 9vw;
+
+    }
+    #updateSection{
+        height: fit-content;
+    }
+    #updateSection .elem h5{
+        font-size: 3vw;
+    }
+    #updateSection .elem .elemContainer h2{
+        font-size: 5vw;
+    }
+    #updateSection .elem .elemContainer p{
+        font-size: 2vw;
+    }
+    #movieShot{
+        height: fit-content;
+        flex-direction: column-reverse;
+    }
+    #movieShot .movie-left{
+        width: 100%;
+    }
+    #movieShot .movie-content{
+        width: 100%;
+    }
+    #movieShot .movie-content .text h1{
+        font-size: 9vw;
+    }
+    #movieShot .movie-content .text h4{
+        font-size: 3.5vw;
+        margin: 10px 0;
+    }
+    #movieShot .movie-content .text p{
+        font-size: 3.5vw;
+        margin: 20px 0;
+    }
+    #movieShot .movie-content .text {
+        font-size: 4vw;
+        margin-top: 10px;
+    }
+    .movie-img{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        gap: 1vw;
+    }
+    #movieShot .left-img{
+        width: 50%;
+        height: 100%;
+     
+      
+        background-position: 0 20%;
+        background-size: cover;
+    }
+    #movieShot .right-img{
+
+        width: 50%;
+        height: 100%;
+      
+        background-position: 0 20%;
+        background-size: cover;
+            
+    }
+
+    #marquee{
+        height: 8vh;
+    }
+    #marquee .marqueeContainer h4{
+        font-size: 8vw;
+    }
+    #blog{
+        height: fit-content;
+    }
+    .blogContainer{
+        flex-direction: column;
+    }
+    .blog{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .blogContainer h3{
+        font-size: 9vw;
+    }
+    .blog p{
+        font-size: 6vw;
+    }
+    #footer{
+        flex-direction: column;
+        height: fit-content;
+    }
+    #footer h1{
+        width: 100%;
+        padding: 2vw;
+    }
+    #footer h2:nth-child(2){
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid black;
+        text-align: start;
+        padding: 2vw;
+    }
+    #footer h2:nth-child(3){
+        width: 100%;
+        text-align: start;
+        border-bottom: 2px solid black;
+    }
+    #footer div h2{
+        text-align: start;
+    }
+    #footer div{
+        width: 100%;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .icons i{
+        font-size:6vw;
+    }
+    #footer h1::before{
+        top: 80%;
+        right: 70%;
+        font-size: 2vw;
+    }
+    #footer h1::after{
+        right: 6%;
+        font-size: 3vw;
+    }
+}
